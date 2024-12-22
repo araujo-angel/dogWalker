@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "66fd9d94199f9a89d1ec1527"
+  },
+  "cpf": "123.456.789-01",
+  "nome": "João Silva",
+  "endereço": "Rua das Flores, 123",
+  "telefone": [
+    "(11) 91234-5678",
+    "(11) 92345-6789"
+  ],
+  "email": "joao.silva@example.com",
+  "pet": {
+    "$oid": "66fd9ce6199f9a89d1ec1522"
+  },
+  "pacoteId": {
+    "$oid": "66fff148633688f94bb59ffe"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9d94199f9a89d1ec1528"
+  },
+  "cpf": "987.654.321-02",
+  "nome": "Maria Oliveira",
+  "endereço": "Avenida Central, 456",
+  "telefone": [
+    "(21) 99876-5432"
+  ],
+  "email": "maria.oliveira@example.com",
+  "dependente": {
+    "cpf": "987.654.321-88",
+    "nome": "Ana Oliveira"
+  },
+  "pet": {
+    "$oid": "66fd9ce6199f9a89d1ec1523"
+  },
+  "pacoteId": {
+    "$oid": "66fff148633688f94bb59fff"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9d94199f9a89d1ec1529"
+  },
+  "cpf": "159.753.486-03",
+  "nome": "Carlos Santos",
+  "endereço": "Rua das Palmeiras, 789",
+  "telefone": [
+    "(31) 93456-7890"
+  ],
+  "pet": {
+    "$oid": "66fd9ce6199f9a89d1ec1524"
+  },
+  "pacoteId": {
+    "$oid": "66fff148633688f94bb5a000"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9d94199f9a89d1ec152a"
+  },
+  "cpf": "456.123.789-04",
+  "nome": "Ana Costa",
+  "endereço": "Rua do Sol, 321",
+  "telefone": [
+    "(81) 92345-6789",
+    "(81) 91234-5678"
+  ],
+  "email": "ana.costa@example.com",
+  "dependente": {
+    "cpf": "456.123.789-66",
+    "nome": "Sofia Costa"
+  },
+  "pet": {
+    "$oid": "66fd9ce6199f9a89d1ec1525"
+  },
+  "pacoteId": {
+    "$oid": "66fff148633688f94bb5a001"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9d94199f9a89d1ec152b"
+  },
+  "cpf": "321.654.987-05",
+  "nome": "Pedro Almeida",
+  "endereço": "Avenida das Américas, 654",
+  "telefone": [
+    "(71) 91234-5678"
+  ],
+  "dependente": {
+    "cpf": "321.654.987-55",
+    "nome": "Lucas Almeida"
+  },
+  "pet": {
+    "$oid": "66fd9ce6199f9a89d1ec1526"
+  },
+  "pacoteId": {
+    "$oid": "66fff148633688f94bb5a002"
+  }
+}]

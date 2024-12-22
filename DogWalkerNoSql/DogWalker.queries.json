@@ -1,0 +1,31 @@
+db.pacote.createIndex({DataHora: 1})//cria um índice para acessar as datas dos pacotes
+
+db.funcionario.createIndex({salário:1}) //cria um índice para acessar o salário de forma mais rápida
+
+db.funcionario.find({salário: {$gte: 1500}}) //1 - retorna os funcionarios que tem salarios maiores que 1500
+
+db.funcionario.find({"região": {"$exists": true}}) //retorna os funcionarios que sao do tipo secretário(a)
+
+db.funcionario.find({ "idioma": "Inglês" }, { "nome": 1, "salario": 1, "_id": 0 }) //2 -retorna o nome e o salario dos funcionarios que sao do tipo secretário(a)
+
+db.pet.find({"porte": "Grande"}, {"nome": 1, "raça":1, "clienteId":1, "_id":0}) //retorna o nome, a raça e o id do tutor dos cachorros que sao porte grande
+
+db.pet.find({}, {_id:0, nome:1, raça:1}) //3 - retorna o nome do animal e sua raça
+
+db.cliente.find({"telefone":["(31) 93456-7890"]},{nome:1, cpf:1, telefone:1}) //4 - procura o telefone especificado no array telefone, retornando o nome do cliente, o cpf e seu telefone
+
+db.cliente.find({"dependente.nome": "Ana Oliveira"}) //5- retorna o documento em que ana oliveira está embutida como subdocumento
+
+db.funcionario.find({"região":{$exists:true}}, {nome:1, "salario":1, "_id":0}).sort({"salário":-1}).limit(2) //6 retorna os dogwalkers ordenados pelo salario com limite de 2 retornos
+
+db.pet.aggregate([{ $lookup: { from: "cliente", localField: "clienteId", foreignField: "_id", as:"cliente_animal"}}, {$project:{"nome":1, "raça":1, cliente_animal:1}}])
+//7- retorna o objectId do pet, seu nome e sua raça, além de todo documento referente ao seu tutor no campo cliente_animal.
+
+db.pet.aggregate([{$lookup:{
+    from: "funcionario",
+    localField: "idFuncionario",
+    foreignField: "_id",
+    as: "dogwalkers_e_pets"}},
+    {$project: {"nome":1, "raça":1, "_id":0
+}}]) 
+//8- retornam o nome e a raça dos pets associados aos funcionarios
