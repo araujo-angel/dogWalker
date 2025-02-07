@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "66fff1144ea39043e5bf8f8e"
+  },
+  "cpf": "123.456.789-00",
+  "salário": 3000,
+  "nome": "João Silva",
+  "telefone": "(11) 98765-4321",
+  "endereço": {
+    "rua": "Rua das Flores",
+    "número": 123,
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01000-000"
+  },
+  "região": "Zona Norte"
+},
+{
+  "_id": {
+    "$oid": "66fff1144ea39043e5bf8f8f"
+  },
+  "cpf": "987.654.321-11",
+  "salário": 4500,
+  "nome": "Maria Souza",
+  "telefone": "(21) 99876-5432",
+  "endereço": {
+    "rua": "Avenida Paulista",
+    "número": 456,
+    "bairro": "Bela Vista",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01310-000"
+  },
+  "idioma": "Inglês"
+},
+{
+  "_id": {
+    "$oid": "66fff1144ea39043e5bf8f90"
+  },
+  "cpf": "123.987.456-22",
+  "salário": 3200,
+  "nome": "Carlos Pereira",
+  "telefone": "(31) 91234-5678",
+  "endereço": {
+    "rua": "Rua do Carmo",
+    "número": 789,
+    "bairro": "Centro",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "cep": "30110-000"
+  },
+  "região": "Zona Sul"
+},
+{
+  "_id": {
+    "$oid": "66fff1144ea39043e5bf8f91"
+  },
+  "cpf": "654.321.987-33",
+  "salário": 5000,
+  "nome": "Ana Lima",
+  "telefone": "(61) 92345-6789",
+  "endereço": {
+    "rua": "Setor Comercial Sul",
+    "número": 101,
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "estado": "DF",
+    "cep": "70000-000"
+  },
+  "idioma": "Francês"
+},
+{
+  "_id": {
+    "$oid": "66fff1144ea39043e5bf8f92"
+  },
+  "cpf": "789.123.456-44",
+  "salário": 3500,
+  "nome": "Luiz Oliveira",
+  "telefone": "(85) 98765-1234",
+  "endereço": {
+    "rua": "Avenida Beira-Mar",
+    "número": 202,
+    "bairro": "Praia de Iracema",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "cep": "60060-001"
+  },
+  "idioma": "Inglês"
+}]

@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "66fd9ce6199f9a89d1ec1522"
+  },
+  "nome": "Rex",
+  "raça": "Labrador",
+  "porte": "Grande",
+  "cor": "Amarelo",
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1527"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f8e"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9ce6199f9a89d1ec1523"
+  },
+  "nome": "Luna",
+  "raça": "Golden Retriever",
+  "porte": "Médio",
+  "cor": "Dourado",
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1528"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f90"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9ce6199f9a89d1ec1524"
+  },
+  "nome": "Thor",
+  "raça": "Bulldog",
+  "porte": "Pequeno",
+  "cor": "Branco",
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1529"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f90"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9ce6199f9a89d1ec1525"
+  },
+  "nome": "Bella",
+  "raça": "Poodle",
+  "porte": "Pequeno",
+  "cor": "Cinza",
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec152a"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f90"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd9ce6199f9a89d1ec1526"
+  },
+  "nome": "Max",
+  "raça": "Pastor Alemão",
+  "porte": "Grande",
+  "cor": "Preto",
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec152b"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f8e"
+  }
+}]

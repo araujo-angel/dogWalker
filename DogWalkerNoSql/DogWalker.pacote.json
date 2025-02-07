@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "66fff148633688f94bb59ffe"
+  },
+  "preço": 600,
+  "DataHora": {
+    "$date": "2024-10-02T08:00:00.000Z"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f8f"
+  },
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1527"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fff148633688f94bb59fff"
+  },
+  "preço": 150,
+  "turno": "manhã",
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f91"
+  },
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1528"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fff148633688f94bb5a000"
+  },
+  "preço": 600,
+  "DataHora": {
+    "$date": "2024-10-03T10:00:00.000Z"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f91"
+  },
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec1529"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fff148633688f94bb5a001"
+  },
+  "preço": 150,
+  "turno": "tarde",
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f92"
+  },
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec152a"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fff148633688f94bb5a002"
+  },
+  "preço": 600,
+  "DataHora": {
+    "$date": "2024-10-04T14:00:00.000Z"
+  },
+  "funcionarioId": {
+    "$oid": "66fff1144ea39043e5bf8f91"
+  },
+  "clienteId": {
+    "$oid": "66fd9d94199f9a89d1ec152b"
+  }
+}]
