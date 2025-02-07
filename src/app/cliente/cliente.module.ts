@@ -1,17 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
-import { AgendamentosClienteComponent } from './agendamentos-cliente/agendamentos-cliente.component';
-
+import { ClienteCadastroComponent } from './cliente-cadastro/cliente-cadastro.component';
+import { AgendarPasseioComponent } from './agendar-passeio/agendar-passeio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 @NgModule({
   declarations: [
-    CadastroClienteComponent,
-    AgendamentosClienteComponent
+    ClienteCadastroComponent,
+    AgendarPasseioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,  
+    MatInputModule
   ]
 })
 export class ClienteModule { }

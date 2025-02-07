@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PasseiosWalkerComponent } from './passeios-walker.component';
+import { ClienteCadastroComponent } from './cliente-cadastro.component';
 
-describe('PasseiosWalkerComponent', () => {
-  let component: PasseiosWalkerComponent;
-  let fixture: ComponentFixture<PasseiosWalkerComponent>;
+describe('ClienteCadastroComponent', () => {
+  let component: ClienteCadastroComponent;
+  let fixture: ComponentFixture<ClienteCadastroComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PasseiosWalkerComponent]
+      declarations: [ClienteCadastroComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PasseiosWalkerComponent);
+    fixture = TestBed.createComponent(ClienteCadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

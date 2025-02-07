@@ -1,0 +1,14 @@
+.content {
+    height: 100vh;
+    display: flex;
+  }
+  
+  mat-drawer {
+    width: 250px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 16px;
+  }
+  

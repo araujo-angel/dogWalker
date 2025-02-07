@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CadastroWalkerComponent } from './cadastro-walker.component';
+import { WalkerCadastroComponent } from './walker-cadastro.component';
 
-describe('CadastroWalkerComponent', () => {
-  let component: CadastroWalkerComponent;
-  let fixture: ComponentFixture<CadastroWalkerComponent>;
+describe('WalkerCadastroComponent', () => {
+  let component: WalkerCadastroComponent;
+  let fixture: ComponentFixture<WalkerCadastroComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CadastroWalkerComponent]
+      declarations: [WalkerCadastroComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(CadastroWalkerComponent);
+    fixture = TestBed.createComponent(WalkerCadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
